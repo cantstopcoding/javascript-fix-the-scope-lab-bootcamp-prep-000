@@ -14,12 +14,6 @@ function add2(n) {
   return n += 2;
 }
 
-var funkyFunction = function() {
-  var innerScope = function() {
-    return "FUNKY!";
-  };
-  return innerScope();
-};
 
 
 
@@ -33,6 +27,3 @@ var funkyFunction = function() {
 
  
 
-var theFunk = funkyFunction();
-
-theFunk();
