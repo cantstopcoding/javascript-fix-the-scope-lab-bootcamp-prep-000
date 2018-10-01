@@ -14,12 +14,12 @@ function add2(n) {
   return n += 2;
 }
 
-function funkyFunction() {
+var funkyFunction = function() {
   var innerScope = function() {
     return "FUNKY!";
   };
   return innerScope();
-}
+};
 
 
 
