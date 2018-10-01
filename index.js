@@ -28,9 +28,4 @@ var funkyFunction = function() {
   return innerScope();
 };
 
-
-
-
-
- 
-
+var theFunk = funkyFunction();
