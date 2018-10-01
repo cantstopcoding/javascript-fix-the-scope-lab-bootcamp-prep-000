@@ -27,7 +27,7 @@ var funkyFunction = function() {
   };
 };
 
-var theFunk = 'FUNKY!'
+theFunk = 'FUNKY!'
 
 
 
