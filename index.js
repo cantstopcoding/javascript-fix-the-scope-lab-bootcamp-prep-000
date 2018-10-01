@@ -18,7 +18,7 @@ var funkyFunction = function() {
   var innerScope = function() {
     return "FUNKY!";
   };
-  return innerScope;
+  return innerScope();
 };
 
 
