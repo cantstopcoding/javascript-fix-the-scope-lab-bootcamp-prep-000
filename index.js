@@ -22,10 +22,23 @@ function add2(n) {
 // NOTE: you only need to modify the code below this line.
 
 var funkyFunction = function() {
-  var innerScope = function() {
+  return innerScope = function() {
     return "FUNKY!";
   };
-  return innerScope();
 };
 
 var theFunk = funkyFunction();
+
+
+  /* describe('funkyFunction()', function() {
+    it('returns a function', function() {
+      expect(typeof window.funkyFunction()).toEqual('function')
+    })
+  })
+
+  describe('theFunk', function() {
+    it('is "FUNKY!"', function() {
+      expect(window.theFunk).toEqual('FUNKY!')
+    })
+  })
+  */
